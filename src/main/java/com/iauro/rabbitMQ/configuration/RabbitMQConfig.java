@@ -11,7 +11,7 @@ public class RabbitMQConfig {
     public static final String ROUNTING_A=routing.A;
     public static final String  ROUTING_B=routing.B;
     @congiguration
-    public class RabbitMQConfig {
+    public class RabbitMQConfig  {
         @Bean
         Queue queueA() {
             return new Queue();
